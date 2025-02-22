@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FraudShield AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <img src="images/logo.jpg" alt="FraudShield AI Logo" class="logo">
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li> <!-- Corrected Dashboard Link -->
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="parallax bg1">
+        <div class="content msg1 active">
+            AI-Powered Fraud Detection for Secure Transactions
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="parallax bg2">
+        <div class="content msg2">
+            <h2>About FraudShield AI</h2>
+            <p>FraudShield AI is a cutting-edge fraud detection system leveraging advanced machine learning algorithms.</p>
+            <p>We specialize in analyzing banking and credit card transactions in real time, identifying suspicious activities before they happen.</p>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" class="parallax bg3">
+        <div class="content msg3">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Real-time fraud detection using AI & ML</li>
+                <li>Anomaly detection trained on Kaggle’s credit card dataset</li>
+                <li>Instant alerts for suspicious transactions</li>
+                <li>Live dashboard for monitoring transactions</li>
+                <li>Adaptive learning for evolving fraud tactics</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Dashboard Section -->
+    <div class="parallax bg4"> <!-- Removed ID to avoid conflicts -->
+        <div class="content msg4">
+            <h2>Fraud Monitoring Dashboard</h2>
+            <p>Track fraudulent activities in real time. Our dashboard provides live reports on detected anomalies.</p>
+            <button onclick="window.location.href='dashboard.html'">Go to Dashboard</button>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="parallax bg5">
+        <div class="content msg5">
+            <h2>Contact Us</h2>
+            <p>Email: support@fraudshield.com</p>
+            <p>Phone: +1 234 567 890</p>
+            <p>Website: www.fraudshield.com</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
